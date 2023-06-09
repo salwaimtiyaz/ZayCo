@@ -1,0 +1,50 @@
+<html>
+    
+    <head>
+    <h1>Create Data Akun</h1>
+    </head>
+
+    <body>
+        <h3>Data Akun</h3>
+	    <form action=" " method="post" name="form1">
+            <table width="25%" border="0">
+              
+                <tr>
+                    <td>nama_user</td>
+                    <td><input type="text" name="nama_user"></td>
+                </tr>
+                <tr> 
+                    <td>gmail_user</td>
+                    <td><input type="text" name="gmail_user"></td>
+                </tr>
+                <tr>
+                    <td>pass_user</td>
+                    <td><input type="text" name="pass_user"></td>
+                </tr>
+                <tr>
+                    <td>alamat</td>
+                    <td><input type="text" name="almat"></td>
+                </tr>
+                    
+                    <td></td>
+                    <td><input type="submit" name="Submit" value="Add"></td>
+                </tr>
+                <?php
+                include 'koneksi.php';
+                // Check If form submitted, insert form data into users table.
+
+                if(isset($_POST['Submit'])) {
+                    $nama_user= $_POST['nama_user'];
+                    $gmail_user = $_POST['gmail_user'];
+                    $pass_user = $_POST['pass_user'];
+                    $alamat = $_POST['almat'];
+
+                    $result = "INSERT INTO akun
+                    VALUES('','$nama_user','$gmail_user','$pass_user','$alamat')";
+                    mysqli_query($con,$result);
+                    // Show message when user added
+       // echo "Data added successfully. <a href='index.php'>View Data akun</a>";
+        header("location: viewakun.php");
+
+    }
+    ?>

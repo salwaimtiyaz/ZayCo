@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+margin: 0;
+}
+
+.logo{
+    position: relative;
+    width: 1310px;
+    height: 93px;
+    left: 0px;
+    top: 0px;
+    background: #8E3200;
+}
+
+.logo img{
+    position: relative;
+width: 133px;
+height: 93px;
+left: 17px;
+top: 0px;
+}
+
+.logo a{
+    position: relative;
+    width: 84px;
+    height: 26px;
+    left: 100px;
+    top: -30px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #ffffff;
+    padding-left: 200px;
+}
+
+img{
+    position: relative;
+width: 1310px;
+height: 739px;
+left: 0px;
+top: 0px;
+}
+
+h3{
+    position: absolute;
+    width: 269px;
+    height: 59px;
+    left: 527px;
+    top: 353px;
+    
+    font-family: 'IM FELL Great Primer';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    /* identical to box height */
+    
+    
+    color: rgba(13, 12, 12, 0.8);
+}
+.b{
+    position: absolute;
+    width: 529px;
+    height: 45px;
+    left: 500px;
+    top: 420px;
+    
+    font-family: 'IM FELL Double Pica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    
+    color: #FFFFFF;
+    
+}
+
+h3{
+    position: relative;
+width: 269px;
+height: 59px;
+left: 527px;
+top: 353px;
+
+font-family: 'IM FELL Great Primer';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 59px;
+/* identical to box height */
+
+
+color: rgba(13, 12, 12, 0.8);
+}
+
+h4{
+    position: relative;
+width: 550px;
+height: 45px;
+left: 380px;
+top: 355px;
+
+font-family: 'IM FELL Double Pica';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 45px;
+
+color: #FFFFFF;
+
+}
+
+.tulisan {
+    position: relative;
+    margin-bottom: 500px;
+    top: -841px;
+}
+
+button{
+    background-color: #F5F0BB;
+    position: absolute;
+width: 81px;
+height: 36px;
+left: 635px;
+top: 550px;
+
+font-family: 'Inika';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+border-radius:99px;
+/* identical to box height */
+
+
+color: #000000;
+}
+H5{
+    position: absolute;
+width: 80px;
+height: 29px;
+left: 622px;
+top: 660px;
+
+font-family: 'IM FELL Great Primer SC';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #1C1919;
+}
+
+form{
+    position: relative;
+    top: -460px;
+    left: 446px;
+}
